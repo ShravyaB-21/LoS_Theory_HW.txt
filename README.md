@@ -5,6 +5,8 @@ Imagine a computer without an operating system. Identify the problems a user wou
 
 Turning on a computer without an OS doesnot cause an explosion or total silence. The hardware wakes up and does its basic self-check (via BIOS/UEFI firmware), but then hits a dead end because there is no software to load, organize memory, manage files, or accept your commands. It is a fully awake machine with absolutely nothing meaningful to do.
 What would actually happen?
+
+
 **1.No way to run multiple programs:**
 Without an OS, the CPU can only do one thing at a time, given directly by the programmer. For example, we couldn't listen to music while typing a document. Every single program would need to control the hardware completely by itself, and only one could run at a time.
 
