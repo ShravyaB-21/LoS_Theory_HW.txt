@@ -22,6 +22,9 @@ Anyone could access any data. No permissions, no passwords, no protection betwee
 
 **6.No easy way to install or run software:**
 There would be no standard way to load a program into memory and run it — would require deep hardware knowledge just to start anything.
+
+
+
 **Following OS feature can solve this by:**
 **Fix 1: Running Multiple Programs at Once:**
 The OS quickly switches between programs, giving each one a tiny slice of CPU time — so it feels like they're all running together.
