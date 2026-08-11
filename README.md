@@ -109,3 +109,10 @@ A real cybersecurity team doesnot just attack (red team), they also defend (blue
  Execute at least five Linux commands that produce both successful and unsuccessful results. Investigate their exit status using `$?`.
  Create a simple visual/table showing *Command → Result Exit Status → Meaning*.
  What can a script learn from an exit status?**
+
+Exit status is how a command silently tells the script if it worked or failed. And, a script follows that answer and reacts accordingly.
+Every time a command is run in Linux, once it finishes, it leaves behind a "report card" number — this is called the exit status. We can check it immediately after by typing echo $?.
+
+Su[[ose, we get:
+0 = "Everything went fine, succeeded"
+Anything other than 0 (1, 2, 127, etc.) = "Something went wrong" — and the exact number often hints at what went wrong
