@@ -46,12 +46,13 @@ Output shows things like total memory, used memory, and free memory — all trac
 
 
 Without OS vs With OS — Quick Comparison
-What	Without an OS	With an OS
-Running programs	Only one program at a time, controlling everything itself	Many programs run together smoothly
-Storage	Just raw, unorganized data — no files or folders	Neatly organized files and folders
-Memory	Programs fight over memory space, causing crashes	OS shares out memory safely for each program
-Devices	Every app must know how to talk to hardware itself	OS provides drivers so apps don't have to worry about it
-Security	No logins, no protection — anyone can access anything	Passwords, permissions, and user accounts keep things safe
-Ease of use	Need deep technical knowledge to do anything	Just click or type simple commands
-Multitasking	Basically impossible	Built right in, works automatically
+What	       | Without an OS                                                     	 | With an OS
+---------------------------------------------------------------------------------------------------
+Running      | programs	Only one program at a time, controlling everything itself	 | Many programs run together smoothly
+Storage	     | Just raw, unorganized data — no files or folders	                   | Neatly organized files and folders
+Memory	     | Programs fight over memory space, causing crashes	                 | OS shares out memory safely for each program
+Devices	     | Every app must know how to talk to hardware itself	                 | OS provides drivers so apps don't have to worry about it
+Security     | No logins, no protection — anyone can access anything	             | Passwords, permissions, and user accounts keep things safe
+Ease of use  | 	Need deep technical knowledge to do anything	                     | Just click or type simple commands
+Multitasking |	Basically impossible	                                             | Built right in, works automatically
 
