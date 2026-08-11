@@ -39,6 +39,7 @@ root           3  0.0  0.0      0     0 ?        S    00:51   0:00 [pool_workque
 root           4  0.0  0.0      0     0 ?        I<   00:51   0:00 [kworker/R-rcu_gp]
 
 
+
 This shows a list of the top five active processes running on your Linux system. It combines ps aux to list all current processes with head -5 to filter and display only the header line plus the first four process lines.
 
 **Fix 2: Organizing Your Files:**
