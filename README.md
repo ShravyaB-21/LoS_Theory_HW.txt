@@ -104,3 +104,8 @@ A real cybersecurity team doesnot just attack (red team), they also defend (blue
 
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/30f00905-5654-4fe7-973b-6053d55c772f" />
 
+
+**3.Exit status: 
+ Execute at least five Linux commands that produce both successful and unsuccessful results. Investigate their exit status using `$?`.
+ Create a simple visual/table showing *Command → Result Exit Status → Meaning*.
+ What can a script learn from an exit status?**
