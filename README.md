@@ -57,6 +57,12 @@ The OS decides how much memory each program gets, and makes sure they donnot ove
 
 **free -h**
 
+
+          total        used        free      shared  buff/cache   available
+Mem:           1.9Gi       714Mi       131Mi        10Mi       1.3Gi       1.2Gi
+Swap:          953Mi       118Mi       835Mi
+
+
 Output shows things like total memory, used memory, and free memory — all tracked live by the OS. Without this, your programs would randomly grab memory space and crash into each other constantly.
 
 
