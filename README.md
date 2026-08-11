@@ -61,3 +61,16 @@ Without OS vs With OS — Quick Comparison
 |Ease of use | 	Need deep technical knowledge to do anything	                     | Just click or type simple commands                        |
 |Multitasking|	Basically impossible	                                             | Built right in, works automatically                       |
 
+
+**2.Imagine your team is setting up a cybersecurity laboratory. Explore at least five Linux distributions relevant to cybersecurity and recommend suitable distributions for different roles such as penetration testing, digital forensics, privacy, and security monitoring. Present your findings creatively as a comparison chart, poster, infographic, or “OS selection guide.”**
+
+|Lab role	                             | Linux tools    |	Why                                                                                    |
+|--------------------------------------|----------------|----------------------------------------------------------------------------------------|
+|Penetration testing                   | Kali Linux	    | The classic — hundreds of attack tools ready to go, huge community support             |
+|Advanced/heavy pentesting             | BlackArch	    | For when Kali's toolset isn't enough, and you're comfortable with Linux internals      |
+|Privacy-focused testing	             | Parrot OS	    | Same pentest muscle as Kali, but lighter and more privacy-conscious                    |
+|Anonymity/privacy work	               | Tails	        | Leaves zero trace, routes everything through Tor — ideal for teaching privacy concepts |
+|Security monitoring / blue team       | Security Onion |	Flip side of pentesting — this is for watching and defending, not attacking            |
+|Digital forensics / incident response | CAINE	        | Built specifically to investigate a system after something bad already happened        |
+
+
