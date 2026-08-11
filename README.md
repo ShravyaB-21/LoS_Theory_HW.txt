@@ -92,8 +92,12 @@ This distro is not for attacking systems — it is for defending and monitoring 
 Specifically built for digital forensics — investigating a hacked/compromised system after an attack already happened. It helps recover deleted files, analyze disk images, and build evidence, similar to how detectives investigate a crime scene, but digitally.
 
 A real cybersecurity team doesnot just attack (red team), they also defend (blue team) and investigate after the fact. So a good lab setup usually mixes:
+
 **Offense:** Kali or Parrot for students to practice attacking test systems
+
 **Defense:** Security Onion to practice spotting those same attacks in real time
+
 **Forensics:** CAINE for the "the attack already happened, now what?" scenario
+
 **Privacy:** Tails to teach how attackers (or privacy-conscious users) stay hidden
 
