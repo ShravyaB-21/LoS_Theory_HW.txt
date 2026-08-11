@@ -34,6 +34,7 @@ The OS quickly switches between programs, giving each one a tiny slice of CPU ti
 **ps aux | head -5**
 
 
+
 USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
 root           1  0.2  0.6  20592 13452 ?        Ss   00:51   0:40 /usr/lib/systemd/systemd --system --deserialize=10 splash
 root           2  0.0  0.0      0     0 ?        S    00:51   0:00 [kthreadd]
@@ -48,6 +49,8 @@ This shows a list of the top five active processes running on your Linux system.
 The OS turns messy raw storage into something you can actually use — files and folders with names.
 
 **ls -l /home/file1**
+
+
 
 ──(kali㉿kali)-[~/home]
 └─$ mkdir file1
@@ -72,6 +75,8 @@ This works only because the OS keeps track of exactly where each file lives on t
 The OS decides how much memory each program gets, and makes sure they donnot overlap.
 
 **free -h**
+
+
 
 
           total        used        free      shared  buff/cache   available
@@ -157,6 +162,8 @@ Suppose, we get:
 Anything other than 0 (1, 2, 127, etc.) = "Something went wrong" — and the exact number often hints at what went wrong.
 
 **Successful mkdir:**
+
+
 ──(kali㉿kali)-[~/home/file1]
 └─$ mkdir Udupi  
                                                                              
@@ -178,6 +185,8 @@ mkdir: cannot create directory ‘test’: File exists
 └─$ echo $?
 1
 **Successful date:**
+
+
 ┌──(kali㉿kali)-[~/home/file1]
 └─$ date     
 Tue Aug 11 07:04:28 AM EDT 2026
@@ -188,6 +197,8 @@ Tue Aug 11 07:04:28 AM EDT 2026
         
 
 **Unsuccessful date:**
+
+
 ┌──(kali㉿kali)-[~/home/file1]
 └─$ date -d
 date: option requires an argument -- 'd'
@@ -199,6 +210,8 @@ Try 'date --help' for more information.
     
 
 **Successful touch:**
+
+
 ──(kali㉿kali)-[~/home/file1]
 └─$ touch file1.txt
                                                                              
@@ -208,6 +221,8 @@ Try 'date --help' for more information.
 
 
 **Unsuccessful touch:**
+
+
 ┌──(kali㉿kali)-[~/home/file1]
 └─$ touch file4 folder/lab1.txt
 touch: cannot touch 'folder/lab1.txt': No such file or directory
@@ -220,6 +235,8 @@ touch: cannot touch 'folder/lab1.txt': No such file or directory
 
 
 **Successful ls:**
+
+
 ┌──(kali㉿kali)-[~/home/file1]
 └─$ ls     
 file1.txt  file4  file4lab1.txt  lab  lab1.txt  Manipal  test  Udupi
@@ -229,6 +246,8 @@ file1.txt  file4  file4lab1.txt  lab  lab1.txt  Manipal  test  Udupi
 0
 
 **Unsuccessful ls:**
+
+
 ──(kali㉿kali)-[~/home/file1]
 └─$ ls file3
 ls: cannot access 'file3': No such file or directory
@@ -239,6 +258,8 @@ ls: cannot access 'file3': No such file or directory
      
 
 **Successful cd:**
+
+
 ┌──(kali㉿kali)-[~]
 └─$ cd file     
                                                                              
@@ -248,6 +269,8 @@ ls: cannot access 'file3': No such file or directory
    
 
 **Unsuccessful cd:**
+
+
 ┌──(kali㉿kali)-[~/file]
 └─$ cd file2
 cd: no such file or directory: file2
