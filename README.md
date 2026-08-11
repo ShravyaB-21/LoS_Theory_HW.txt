@@ -62,6 +62,9 @@ Without OS vs With OS — Quick Comparison
 |Multitasking|	Basically impossible	                                             | Built right in, works automatically                       |
 
 
+
+
+
 **2.Imagine your team is setting up a cybersecurity laboratory. Explore at least five Linux distributions relevant to cybersecurity and recommend suitable distributions for different roles such as penetration testing, digital forensics, privacy, and security monitoring. Present your findings creatively as a comparison chart, poster, infographic, or “OS selection guide.”**
 
 |Lab role	                             | Linux tools    |	Why                                                                                    |
@@ -103,6 +106,9 @@ A real cybersecurity team doesnot just attack (red team), they also defend (blue
 
 
 <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/30f00905-5654-4fe7-973b-6053d55c772f" />
+
+
+
 
 
 **3.Exit status: 
