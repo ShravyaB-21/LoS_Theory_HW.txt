@@ -73,4 +73,27 @@ Without OS vs With OS — Quick Comparison
 |Security monitoring / blue team       | Security Onion |	Flip side of pentesting — this is for watching and defending, not attacking            |
 |Digital forensics / incident response | CAINE	        | Built specifically to investigate a system after something bad already happened        |
 
+**Kali Linux —** The All-Rounder Hacker's Toolkit
+This is basically the most famous "hacking OS" out there. It comes pre-loaded with hundreds of tools for testing how secure a system is — things like password crackers, network scanners, and exploit frameworks. Made by Offensive Security, it is the go-to choice for penetration testing (legally trying to break into systems to find weaknesses before real hackers do).
+
+**Parrot OS —** Kali's Lighter, Privacy-Friendly Cousin
+Very similar to Kali in what it offers (pentesting tools), but it is lighter on the computer's resources and also includes tools focused on privacy and anonymous browsing. Good if we want one OS that handles both hacking practice and staying private online.
+
+**BlackArch Linux —** For the Tool Hoarders
+This one is insane in scale — it has over 2,800 hacking/security tools bundled in. It is built on Arch Linux, which means it is more technical and needs some Linux experience to use comfortably. Best for advanced penetration testers who want maximum tool variety.
+
+**Tails (The Amnesiac Incognito Live System) —** The Privacy Ghost
+Tails is built purely for privacy and anonymity. It routes all internet traffic through Tor (a network that hides your identity), and here's the wild part — it doesnot save anything on the computer once you shut it down. Boot it from a USB, use it, remove the USB, and it is like we were never there. Journalists, activists, and privacy-focused people use this a lot.
+
+**Security Onion —** The Watchdog
+This distro is not for attacking systems — it is for defending and monitoring them. It is built for security monitoring and threat detection, packed with tools that watch network traffic and alert us when something suspicious happens. For example, CCTV cameras + alarm system for your network.
+
+**CAINE -** (Computer Aided Investigative Environment)
+Specifically built for digital forensics — investigating a hacked/compromised system after an attack already happened. It helps recover deleted files, analyze disk images, and build evidence, similar to how detectives investigate a crime scene, but digitally.
+
+A real cybersecurity team doesnot just attack (red team), they also defend (blue team) and investigate after the fact. So a good lab setup usually mixes:
+**Offense:** Kali or Parrot for students to practice attacking test systems
+**Defense:** Security Onion to practice spotting those same attacks in real time
+**Forensics:** CAINE for the "the attack already happened, now what?" scenario
+**Privacy:** Tails to teach how attackers (or privacy-conscious users) stay hidden
 
