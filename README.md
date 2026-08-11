@@ -47,7 +47,24 @@ This shows a list of the top five active processes running on your Linux system.
 **Fix 2: Organizing Your Files:**
 The OS turns messy raw storage into something you can actually use — files and folders with names.
 
-**ls -l /home/Demo**
+**ls -l /home/file1**
+
+──(kali㉿kali)-[~/home]
+└─$ mkdir file1
+                                                                             
+┌──(kali㉿kali)-[~/home]
+└─$ cd file1
+                                                                             
+┌──(kali㉿kali)-[~/home/file1]
+└─$ touch file1.txt
+                                                                             
+┌──(kali㉿kali)-[~/home/file1]
+└─$ ls      
+file1.txt
+                                                                             
+┌──(kali㉿kali)-[~/home/file1]
+└─$ 
+
 
 This works only because the OS keeps track of exactly where each file lives on the disk. 
 
