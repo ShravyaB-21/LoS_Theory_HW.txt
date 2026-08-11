@@ -86,7 +86,7 @@ This one is insane in scale — it has over 2,800 hacking/security tools bundled
 Tails is built purely for privacy and anonymity. It routes all internet traffic through Tor (a network that hides your identity), and here's the wild part — it doesnot save anything on the computer once you shut it down. Boot it from a USB, use it, remove the USB, and it is like we were never there. Journalists, activists, and privacy-focused people use this a lot.
 
 **Security Onion —** The Watchdog
-This distro is not for attacking systems — it is for defending and monitoring them. It is built for security monitoring and threat detection, packed with tools that watch network traffic and alert us when something suspicious happens. For example, CCTV cameras + alarm system for your network.
+This tool is not for attacking systems — it is for defending and monitoring them. It is built for security monitoring and threat detection, packed with tools that watch network traffic and alert us when something suspicious happens. For example, CCTV cameras + alarm system for your network.
 
 **CAINE -** (Computer Aided Investigative Environment)
 Specifically built for digital forensics — investigating a hacked/compromised system after an attack already happened. It helps recover deleted files, analyze disk images, and build evidence, similar to how detectives investigate a crime scene, but digitally.
@@ -101,3 +101,9 @@ A real cybersecurity team doesnot just attack (red team), they also defend (blue
 
 **Privacy:** Tails to teach how attackers (or privacy-conscious users) stay hidden
 
+
+Cybersecurity--------|----------> Penetration Testing ------> Kali Linux
+                     |----------> Digital Forensic ---------> CAINE
+                     |----------> Privacy ---------|--------> Trails
+                                                   |--------> Parrot Security
+                     |---------->Security Monitoring--------> Security Onion
