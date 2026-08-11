@@ -102,5 +102,5 @@ A real cybersecurity team doesnot just attack (red team), they also defend (blue
 **Privacy:** Tails to teach how attackers (or privacy-conscious users) stay hidden
 
 
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/30f00905-5654-4fe7-973b-6053d55c772f" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/30f00905-5654-4fe7-973b-6053d55c772f" />
 
