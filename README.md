@@ -32,6 +32,7 @@ There would be no standard way to load a program into memory and run it — woul
 The OS quickly switches between programs, giving each one a tiny slice of CPU time — so it feels like they're all running together.
 
 **ps aux | head -5**
+
 USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
 root           1  0.2  0.6  20592 13484 ?        Ss   00:51   0:40 /usr/lib/systemd/systemd --system --deserialize=10 splash
 root           2  0.0  0.0      0     0 ?        S    00:51   0:00 [kthreadd]
